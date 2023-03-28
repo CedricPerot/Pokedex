@@ -13,7 +13,7 @@ const pokemonPicture = pokemonList[1].imgSrc;
 
 function PokemonCard() {
     return pokemonPicture ? (<figure><img src={pokemonPicture} alt="Bulbosaur"/><figcaption>{pokemon}</figcaption>
-    </figure>) : <p>???</p>;
+    </figure>) : <p>???<figcaption>{pokemon}</figcaption></p>;
   }
   
   export default PokemonCard;
