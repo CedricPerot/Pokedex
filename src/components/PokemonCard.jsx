@@ -1,5 +1,6 @@
 // const pokemon = pokemonList[1].name;
 // const pokemonPicture = pokemonList[1].imgSrc;
+import PropTypes from "prop-types";
 
 function PokemonCard(pokemon) {
     return pokemon.imgSrc ? (<figure><img src={pokemon.imgSrc} alt="Bulbosaur"/><figcaption>{pokemon.name}</figcaption>
