@@ -5,6 +5,7 @@ function PokemonCard(pokemon) {
     return pokemon.imgSrc ? (<figure><img src={pokemon.imgSrc} alt="Bulbosaur"/><figcaption>{pokemon.name}</figcaption>
     </figure>) : <p>???<figcaption>{pokemon.name}</figcaption></p>;
   }
+//ajout des prop types
 
   PokemonCard.PropTypes = {
     pokemonList : PropTypes.arrayOf(PropTypes.shape({
