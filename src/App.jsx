@@ -36,8 +36,8 @@ function App() {
     <div className="pokeball">
       <PokemonCard pokemon={pokemonList[pokemonIndex]}/>
     </div>
-    <div>
-      <NavBar setPokemonIndex={setPokemonIndex} pokemonIndex={pokemonIndex} pokemonList={pokemonList}/>
+    <div>{pokemonList.map((pokemonIndex, index) =>
+      <NavBar setPokemonIndex={setPokemonIndex} pokemonIndex={pokemonIndex} index={index}/>)}
     </div>
     </div>
   )
