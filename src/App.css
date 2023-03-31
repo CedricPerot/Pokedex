@@ -18,6 +18,43 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.pokeball {
+  display: flex;
+}
+
+.pokemon_card {
+  border-radius: 12px;
+  background-color: #d8d8d8;
+  width: 20em;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.pokename {
+  font-size: 2em;
+  background-color: rgb(185, 167, 167);
+  width: 90%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  width: 40%;
+  margin: 2px;
+  border: 1px solid #666666;
+}
+
+img {
+  width: 90%;
+  margin: auto;
+  background-color: whitesmoke;
+  border-radius: 12px;;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
